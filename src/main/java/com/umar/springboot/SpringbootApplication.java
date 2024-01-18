@@ -16,6 +16,13 @@ public class SpringbootApplication {
 		return "hello,first run on docker";
 	}
 	
+	@GetMapping("/leoleo")
+	public String insert1()
+	{
+		return "leoleo bolte chota";
+	}
+	
+	
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootApplication.class, args);
