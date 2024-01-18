@@ -22,7 +22,7 @@ public class SpringbootApplication {
 		return "leoleo bolte chota";
 	}
 	
-	@GetMapping("/leo")
+	@GetMapping("/leoleo1")
 	public String insert2()
 	{
 		return "leoleo bolte chota";
