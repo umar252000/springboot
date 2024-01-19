@@ -22,9 +22,15 @@ public class SpringbootApplication {
 		return "leoleo bolte chota";
 	}
 	
+	@GetMapping("/leo")
+	public String insert2()
+	{
+		return "leoleo bolte chota";
+	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootApplication.class, args);
 	}
 
 }
+
