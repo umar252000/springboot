@@ -25,7 +25,7 @@ public class SpringbootApplication {
 	@GetMapping("/leo")
 	public String insert2()
 	{
-		return "leoleo bolte chota";
+		return "leoleo haula";
 	}
 	
 	public static void main(String[] args) {
