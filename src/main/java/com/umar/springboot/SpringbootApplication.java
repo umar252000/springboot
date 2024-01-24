@@ -28,6 +28,11 @@ public class SpringbootApplication {
 		return "leoleo haula";
 	}
 	
+	@GetMapping("/leo2")
+	public String insert3()
+	{
+		return "leoleo2";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootApplication.class, args);
 	}
